@@ -71,9 +71,9 @@ h3 {
 
 p {
   color: hsl(217, 12%, 63%);
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
-  line-height: 1.6;
+  line-height: 1.8;
   margin-bottom: 1rem;
   font-family: Overpass-SemiBold, sans-serif;
 }
@@ -128,7 +128,6 @@ p {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  max-width: 97%;
 }
 /* CARD */
 
