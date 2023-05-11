@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Rating = () => {
   const [selectedRating, setSelectedRating] = useState(null);
-  const [buttonClicked, setButtonClicked] = useState(false);
+  const [, setButtonClicked] = useState(false);
 
   const handleOnFocus = (e) => {
     setSelectedRating(e.target.value);
