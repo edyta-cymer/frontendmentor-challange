@@ -1,13 +1,29 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: hsl(216, 12%, 8%);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@font-face {
+  font-family: "Overpass-Bold";
+  src: url("../src/fonts/Overpass-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Overpass-Regular";
+  src: url("../src/fonts/Overpass-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Overpass-SemiBold";
+  src: url("../src/fonts/Overpass-SemiBold.ttf");
 }
