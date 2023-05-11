@@ -59,7 +59,7 @@ const Rating = () => {
         </button>
       </div>
       <form onSubmit={(e) => e.preventDefault()}>
-        <Link to="/card" state={{ selectedRating: selectedRating }}>
+        <Link to="/thankyou" state={{ selectedRating: selectedRating }}>
           <button type="submit" className="btn-submit">
             SUBMIT
           </button>
